@@ -5,28 +5,28 @@ A simple setup for TypeScript coding in VSCode, with compile and debugging.
 
 ## Getting started
 
-Fork the repo and clone to your local machine, open a terminal / command line and get base packages via **npm**
+Fork the repo and clone to your local machine, open a terminal / command line and get base packages
 
+via **npm**
 ```
     npm install
 ```
 
-or via **[yarn](https://yarnpkg.com)**
-
+via **[yarn](https://yarnpkg.com)**
 ```
     yarn
 ```
 
 ## Adding Packages
 
-Open a terminal / command line, add a package via **npm**
+Open a terminal / command line, add a package
 
+via **npm**
 ```
     npm install packageName
 ```
 
-or via **yarn**
-
+via **yarn**
 ```
     yarn add packageName
 ```
@@ -34,13 +34,14 @@ or via **yarn**
 
 If typings are missing/not included with the base packge, the majority of popular npm packages have typing defined on npm under the @types scoping.
 
-To install as dev dependancies via **npm**
+To install as dev dependancie:
 
+via **npm**
 ```
     npm install @types/packageName --save-dev
 ```
 
-Via **yarn**
+via **yarn**
 ```
     yarn add @types/packageName -D
 ```
@@ -71,7 +72,6 @@ To run the your code
 ```
 
 or
-
 ```
  yarn start
 ```
