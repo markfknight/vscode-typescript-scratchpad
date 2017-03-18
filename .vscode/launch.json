@@ -9,13 +9,13 @@
             "request": "launch",
             "protocol": "auto",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\src\\index.ts",
+            "program": "${workspaceRoot}/src/index.ts",
             "preLaunchTask": "tsc",
             // "console": "integratedTerminal",
             "sourceMaps": true,
             "smartStep": true,
             "outFiles": [
-                "${workspaceRoot}\\dist\\**\\*.js"
+                "${workspaceRoot}/dist/**/*.js"
             ]
         }
     ]
