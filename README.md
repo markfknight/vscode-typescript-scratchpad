@@ -31,7 +31,6 @@ via **yarn**
     yarn add packageName
 ```
 
-
 If typings are missing/not included with the base packge, the majority of popular npm packages have typing defined on npm under the @types scoping.
 
 To install as dev dependancie:
@@ -46,6 +45,28 @@ via **yarn**
     yarn add @types/packageName -D
 ```
 
+Both steps can be completed in one setup by using [typac](https://github.com/ewgenius/typac)
+
+Install typac globally
+
+via npm
+```
+    npm install -g typac
+```
+
+via yarn
+```
+    yarn add global typac
+```
+
+Install a package using the typac command
+
+e.g.
+```
+   typac moment
+```
+
+typac installs moment as a dependancy and @types/moment as a dev dependancy, via npm or if you have it installed yarn.
 
 ## Building
 
