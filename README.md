@@ -32,7 +32,7 @@ via **yarn**
     yarn
 ```
 
-The src/index.ts is your entry point, code away! Add additional files to the src folder and import to your src/index.ts file to use.
+The src/index.ts is your entry point, code away! Add additional files to the src folder and import to your src/index.ts file to use per the hello_world example.
 
 ## Adding 3rd Party Packages
 
