@@ -2,28 +2,45 @@
 
 A simple setup for TypeScript coding in VSCode, with compile and debugging.
 
+## Prerequisites
+
+To start, **[node](https://nodejs.org)** is required.
+
+The TypeScript Compiler (tsc) is required in your path, install globally:
+
+via **npm**
+```
+    npm -g install typescript
+```
+
+via **[yarn](https://yarnpkg.com)**
+```
+    yarn add global typescript
+```
 
 ## Getting started
 
-Fork the repo and clone to your local machine, open a terminal / command line and get base packages
+Fork the repo and clone to your local machine, open a terminal / command line and get base packages:
 
 via **npm**
 ```
     npm install
 ```
 
-via **[yarn](https://yarnpkg.com)**
+via **yarn**
 ```
     yarn
 ```
 
-## Adding Packages
+The src/index.ts is your entry point, code away! Add additional files to the src folder and import to your src/index.ts file to use per the hello_world example.
 
-Open a terminal / command line, add a package
+## Adding 3rd Party Packages
+
+Open a terminal / command line, add a package:
 
 via **npm**
 ```
-    npm install packageName
+    npm install packageName --save
 ```
 
 via **yarn**
@@ -31,9 +48,9 @@ via **yarn**
     yarn add packageName
 ```
 
-If typings are missing/not included with the base packge, the majority of popular npm packages have typing defined on npm under the @types scoping.
+If typings are missing/not included with the base packge, the majority of popular npm packages have typings defined on npm under the @types scoping.
 
-To install as dev dependancie:
+Install typings as a dev dependancy:
 
 via **npm**
 ```
@@ -47,7 +64,7 @@ via **yarn**
 
 Both steps can be completed in one setup by using [typac](https://github.com/ewgenius/typac)
 
-Install typac globally
+Install typac globally:
 
 via npm
 ```
@@ -59,14 +76,14 @@ via yarn
     yarn add global typac
 ```
 
-Install a package using the typac command
+Install a package using the typac command:
 
 e.g.
 ```
    typac moment
 ```
 
-typac installs moment as a dependancy and @types/moment as a dev dependancy, via npm or if you have it installed yarn.
+typac installs moment as a dependancy and @types/moment as a dev dependancy, via npm or yarn if you have it installed.
 
 ## Building
 
@@ -74,11 +91,9 @@ Running the Build task in VSCode will compile TypeScript (/src) to es2015 JavaSr
 
 Shortcut on Windows/Linux: Ctrl + Shift + B, macOS: Command + Shift + B
 
-
 ## Debugging
 
 Set breakpoints in your Ts code and press F5 to start the debugger, happy debugging!
-
 
 ## Live feedback
 
@@ -88,16 +103,17 @@ Ts imports will work out of the box with [Quokka.js](https://quokkajs.com)
 
 To run the your code
 
+via **npm**
 ```
     npm start
 ```
 
-or
+via **yarn**
 ```
- yarn start
+    yarn start
 ```
 
-This copmmand uses ts-node to run your application using your tsconfig.json compile options, running the code without build artifacts.
+This command uses ts-node to run your application in node using your tsconfig.json compile options, without compiling to JavaScript files.
 
 ## Customisations
 
