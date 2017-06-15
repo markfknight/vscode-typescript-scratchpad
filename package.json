@@ -7,8 +7,9 @@
     "start": "ts-node ./src/index.ts"
   },
   "devDependencies": {
-    "ts-node": "^2.1.0",
-    "tslint": "^4.5.1",
-    "typescript": "^2.2.1"
+    "ts-node": "^3.0.6",
+    "tslint": "^5.4.3",
+    "tslint-language-service": "^0.9.6",
+    "typescript": "^2.4.0"
   }
 }

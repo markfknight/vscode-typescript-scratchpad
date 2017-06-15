@@ -6,13 +6,17 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "sourceMap": true,
+    // "inlineSources": true,
     "target": "es2015",
     "lib": ["es6", "dom"],
     "rootDir": "src/",
     "typeRoots": [
       "./node_modules/@types/"
     ],
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "plugins": [
+      { "name": "tslint-language-service"}
+    ]
   },
   "exclude": [
     "node_modules",
