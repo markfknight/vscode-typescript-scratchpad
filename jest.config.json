@@ -1,0 +1,14 @@
+{
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "notify": true,
+    "rootDir": "src/",
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/../node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+}
