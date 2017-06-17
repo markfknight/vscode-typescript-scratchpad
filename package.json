@@ -7,7 +7,7 @@
     "start": "ts-node ./src/index.ts",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "npm run lint",
-    "test": "jest --config jest.config.json"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^20.0.0",
@@ -17,5 +17,19 @@
     "tslint": "^5.4.3",
     "tslint-language-service": "^0.9.6",
     "typescript": "^2.4.0"
+  },
+  "jest": {
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "notify": true,
+    "rootDir": "src/",
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/../node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
   }
 }
