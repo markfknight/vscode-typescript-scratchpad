@@ -143,10 +143,6 @@ Shortcut on Windows/Linux: Ctrl + Shift + B, macOS: Command + Shift + B
 
 Set breakpoints in your TS code and press F5 to start the debugger, happy debugging!
 
-## Live feedback
-
-TS imports will work out of the box with [Quokka.js](https://quokkajs.com)
-
 ## Running
 
 To run the your code
@@ -162,6 +158,10 @@ via **yarn**
 ```
 
 This command uses ts-node to run your application in node using your tsconfig.json compile options, without compiling to JavaScript files.
+
+## Live feedback
+
+TS imports will work out of the box with [Quokka.js](https://quokkajs.com)
 
 ## Customisations
 
