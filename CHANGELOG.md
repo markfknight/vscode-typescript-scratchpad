@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [2.0.1] 2017-06-21
+### Fixed
+- set TSC as isBuildCommand
+
 ## [2.0.0] 2017-06-20
 ### Added
 - CHANGELOG @markfknight
