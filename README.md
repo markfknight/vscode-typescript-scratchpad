@@ -1,24 +1,27 @@
 # VSCode TypeScript Scratchpad
 
 A simple setup for TypeScript coding in VSCode. The follwing is setup out of the box:
-* Linting
-* Testing
-* Build/Compile
+* Linting via [tslint](https://palantir.github.io/tslint/)
+* Testing via [ts-jest](https://github.com/kulshekhar/ts-jest) and [Jest](https://facebook.github.io/jest/)
+* Dev Build/Compile/Run with [ts-node](https://github.com/TypeStrong/ts-node)
+* Running with [ts-node](https://github.com/TypeStrong/ts-node)
+* Build via tsc to a /dist folder
 * VSCode debugging
-* Running via ts-node
 
 ## Prerequisites
 
 To start, **[node](https://nodejs.org)** is required.
 
-The [TypeScript](https://www.typescriptlang.org/) Compiler (tsc) is required in your path, install globally:
+**npm** (Node Package Manager) or **[yarn](https://yarnpkg.com)** can be used as package managers.
+
+The [TypeScript](https://www.typescriptlang.org/) Compiler (tsc) is included and not required in your path.
 
 via **npm**
 ```
     npm -g install typescript
 ```
 
-via **[yarn](https://yarnpkg.com)**
+via **yarn**
 ```
     yarn add global typescript
 ```
@@ -92,7 +95,7 @@ typac installs moment as a dependancy and @types/moment as a dev dependancy, via
 
 ## Linting
 
-The project is setup woth [ts-lint](https://palantir.github.io/tslint/) and the [tslint-language-service](https://github.com/angelozerr/tslint-language-service). Linting feedback should appear in the editor as you type, you can also run linting on the project:
+The project is setup woth [tslint](https://palantir.github.io/tslint/) and the [tslint-language-service](https://github.com/angelozerr/tslint-language-service). Linting feedback should appear in the editor as you type, you can also run linting on the project:
 
 via **npm**
 ```
@@ -127,9 +130,9 @@ via **yarn**
     yarn test
 ```
 
-There is a pre-test hook that runs [ts-lint](https://palantir.github.io/tslint/) before tests are run.
+There is a pre-test hook that runs [tslint](https://palantir.github.io/tslint/) before tests are run.
 
- There is a very useful plugin [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) (free), an integrated continuous testing tool that adds test feedback to the editor and session based test watching.
+There is a very useful plugin [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) (free), an integrated continuous testing tool that adds test feedback to the editor and session based test watching.
 
 Another (multi-editor) integrated continuous testing plugin is the renowned [Wallaby.js](https://wallabyjs.com/) (paid) that this base setup should work out of the box with.
 
@@ -158,6 +161,21 @@ via **yarn**
 ```
 
 This command uses ts-node to run your application in node using your tsconfig.json compile options, without compiling to JavaScript files.
+
+## Running with tests
+To run the your code:
+
+via **npm**
+```
+    npm run start:test
+```
+
+via **yarn**
+```
+    yarn start:test
+```
+
+This runs index.ts file via ts-node after linting and tests are successful.
 
 ## Live feedback
 

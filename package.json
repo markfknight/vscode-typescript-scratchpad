@@ -1,14 +1,26 @@
 {
   "name": "ts-scratchpad",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "markfknight (dev@markfknight.com)",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
+    "start": "npm run ts-node",
+    "start:test": "npm run ts-node:test",
+    "ts-node": "ts-node ./src/index.ts",
+    "prets-node:test": "npm test",
+    "ts-node:test": "npm run ts-node",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "npm run lint",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markfknight/vscode-typescript-scratchpad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markfknight/vscode-typescript-scratchpad/issues"
+  },
+  "homepage": "https://github.com/markfknight/vscode-typescript-scratchpad#readme",
   "devDependencies": {
     "@types/jest": "^20.0.0",
     "jest": "^20.0.4",
