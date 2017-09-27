@@ -5,6 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [3.0.0] 2017-09-27
+### Changed
+- package updates (jest verison 21) @markfknight
+- .gitignore improvements @markfknight
+
 ## [2.0.1] 2017-06-21
 ### Fixed
 - set TSC as isBuildCommand
