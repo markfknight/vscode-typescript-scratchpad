@@ -1,6 +1,6 @@
 {
   "name": "ts-scratchpad",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": "markfknight (dev@markfknight.com)",
   "license": "MIT",
   "scripts": {
@@ -40,6 +40,5 @@
       "^.+\\.(t|j)sx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
-  },
-  "dependencies": {}
+  }
 }

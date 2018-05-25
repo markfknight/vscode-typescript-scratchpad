@@ -5,7 +5,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [3.0.0] 2018-05-25
+## [4.0.0] 2018-05-25
 ### Added
 - ts-node-dev @markfknight
 - esModuleInterop to tsconfig for CommonJS modules @markfknight
@@ -19,6 +19,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - ts-node @markfknight
 - mapCoverage from jest config @markfknight
 - test and run scripts @markfnight
+
+## [3.0.0] 2017-09-27
+### Changed
+- package updates (jest verison 21) @markfknight
+- .gitignore improvements @markfknight
 
 ## [2.0.1] 2017-06-21
 ### Fixed
