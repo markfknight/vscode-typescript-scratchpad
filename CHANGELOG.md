@@ -5,6 +5,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [3.0.0] 2018-05-25
+### Added
+- ts-node-dev @markfknight
+- esModuleInterop to tsconfig for CommonJS modules @markfknight
+
+### Changed
+- updated packages @markfknight
+- target es2018 @markfknight
+
+### Removed
+- yarn.lock @markfknight
+- ts-node @markfknight
+- mapCoverage from jest config @markfknight
+- test and run scripts @markfnight
+
 ## [2.0.1] 2017-06-21
 ### Fixed
 - set TSC as isBuildCommand

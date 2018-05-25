@@ -2,11 +2,12 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "strict": true,
     "sourceMap": true,
     // "inlineSources": true,
-    "target": "es2015",
-    "lib": ["es6", "dom"],
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
     "rootDir": "src/",
     "typeRoots": [
       "./node_modules/@types/"
