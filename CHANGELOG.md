@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [4.0.1] 2018-09-28
+### Changed
+- package upgrade
+
 ## [4.0.0] 2018-05-25
 ### Added
 - ts-node-dev @markfknight
