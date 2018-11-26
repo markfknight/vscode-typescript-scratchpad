@@ -5,6 +5,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [4.1.0] 2018-11-26
+### Changed
+- package upgrade @markfknight
+- tslint config update @markfknight
+- swap to tslint-language-service to typescrict-tslint-plugin @markfknight
+
 ## [4.0.1] 2018-09-28
 ### Changed
 - package upgrade @markfknight
