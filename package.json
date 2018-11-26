@@ -1,6 +1,6 @@
 {
   "name": "ts-scratchpad",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "author": "markfknight (dev@markfknight.com)",
   "license": "MIT",
   "scripts": {
@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/markfknight/vscode-typescript-scratchpad#readme",
   "devDependencies": {
-    "@types/jest": "^23.3.2",
+    "@types/jest": "^23.3.9",
     "jest": "^23.6.0",
-    "ts-jest": "^23.10.2",
-    "ts-node-dev": "^1.0.0-pre.30",
+    "ts-jest": "^23.10.5",
+    "ts-node-dev": "^1.0.0-pre.31",
     "tslint": "^5.11.0",
-    "tslint-language-service": "^0.9.9",
-    "typescript": "^3.1.1"
+    "typescript": "^3.1.6",
+    "typescript-tslint-plugin": "^0.1.0"
   },
   "jest": {
     "moduleFileExtensions": [
