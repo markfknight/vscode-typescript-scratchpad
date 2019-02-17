@@ -1,9 +1,11 @@
 # Change Log
-All notable changes to the "vscode-typescript-node-starter" repo will be documented in this file.
+All notable changes to the "ts-scratchpad" repo will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+### Changed
+- renamed project in change log  @ markfknight
 
 ## [4.1.0] 2018-11-26
 ### Changed
