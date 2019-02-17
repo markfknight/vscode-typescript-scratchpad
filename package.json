@@ -1,11 +1,11 @@
 {
   "name": "ts-scratchpad",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "author": "markfknight (dev@markfknight.com)",
   "license": "MIT",
   "scripts": {
     "start": "npm run ts-node-dev",
-    "ts-node-dev": "ts-node-dev --respawn ./src/index.ts",
+    "ts-node-dev": "tsnd --respawn --transpileOnly ./src/index.ts",
     "prets-node:test": "npm test",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "npm run lint",

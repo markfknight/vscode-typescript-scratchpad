@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [5.0.1] 2019-02-17
+### Changed
+- changed ts-node-dev flags for transpileOnly @markfknight
+
 ## [5.0.0] 2019-02-17
 ### Changed
 - renamed project in change log @markfknight
