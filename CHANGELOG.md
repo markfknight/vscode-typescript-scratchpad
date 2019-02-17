@@ -4,8 +4,12 @@ All notable changes to the "ts-scratchpad" repo will be documented in this file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+## [5.0.0] 2019-02-17
 ### Changed
-- renamed project in change log  @ markfknight
+- renamed project in change log @markfknight
+- package upgrade @markfknight
+- version bump to 5.0.0 due to dependancy upgrades @markfknight
 
 ## [4.1.0] 2018-11-26
 ### Changed
