@@ -1,4 +1,4 @@
-import { hello_world } from './hello_world';
+import { helloWorld } from './HelloWorld';
 
 // Code in here!
-console.log(hello_world());
+console.log(helloWorld());

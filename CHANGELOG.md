@@ -5,6 +5,22 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [6.0.0] 2020-02-19
+### Added
+- eslint @markfknight
+- typescript-eslint @markfknight
+- eslintrc @markfknight
+- eslintignore @markfknight
+
+### Changed
+- tsconfig @markfknight
+- updated packages @markfknight
+- js output to es2020 @markfknight
+- fixed linting issues @markfknight
+
+### Removed
+- tslint and config @markfknight
+
 ## [5.0.1] 2019-02-17
 ### Changed
 - changed ts-node-dev flags for transpileOnly @markfknight
