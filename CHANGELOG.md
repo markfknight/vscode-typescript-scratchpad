@@ -5,6 +5,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [7.0.0] 2020-05-14
+## Added
+- jest linting
+
+## Changed
+- eslint @ 7+ @markfknight
+- jest @ 26+ @markfknight
+- package upgrades @markfknight
+- eslintrc config to .yml @markfknight
+
 ## [6.0.0] 2020-02-19
 ### Added
 - eslint @markfknight
