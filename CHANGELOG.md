@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [7.0.1] 2020-05-15
+## Changed
+- fixed .editorconfig file name @markfknight
+
 ## [7.0.0] 2020-05-14
 ## Added
 - jest linting
